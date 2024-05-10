@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="700.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/jacksparrow_loading2.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="32.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;Remember my creed, boy? A short life and a merry one. That is all. The world owes us nothing more than this. So take what you will, and then die before you live to see yourself made a fool.&quot;" wrappingWidth="285.0398254394531">
+         <font>
+            <Font name="DejaVu Serif" size="12.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="274.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../image/loading2-unscreen.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
